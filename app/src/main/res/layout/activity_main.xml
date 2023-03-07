@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/wishlist_layout"
+        app:layout_constraintBottom_toTopOf="@+id/itemName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:itemCount="16" />
+
+
+    <EditText
+        android:id="@+id/aboutItem"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:hint="https://www.item.com"
+        tools:text="yes"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="165dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+
+        android:layout_marginBottom="16dp"
+        android:hint="Item Name"
+        app:layout_constraintBottom_toTopOf="@+id/aboutItem"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/itemPrice"
+        android:layout_width="91dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Ex: $4.99"
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/itemName"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        app:layout_constraintBaseline_toBaselineOf="@+id/aboutItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toEndOf="@id/aboutItem" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
