@@ -2,9 +2,9 @@
 
 Submitted by: **Lasya Malladi**
 
-**Name of your app** is a wishlist app that helps the user keep track of what they want to buy.
+**WishList** is a wishlist app that helps the user keep track of what they want to buy.
 
-Time spent: **X** hours spent in total
+Time spent: **15** hours spent in total
 
 ## Required Features
 
@@ -30,9 +30,8 @@ Here's a walkthrough of implemented user stories:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
-GIF create![WishList](https://user-images.githubusercontent.com/40951986/223314246-ee5e83fd-d3b6-4c73-a8ae-d5e9944142dd.gif)
-d with ScreentoGIF tool.
-
+GIF created with ScreentoGIF tool.
+[WishList](https://user-images.githubusercontent.com/40951986/223314246-ee5e83fd-d3b6-4c73-a8ae-d5e9944142dd.gif)
 
 ## Notes
 
